@@ -25,7 +25,7 @@ export const Skill_data = [
     },
     {
       skill_name: "Python",
-      Image: "/python.png",
+      Image: "/Python.png",
       width: 80,
       height: 80,
     },
@@ -61,7 +61,7 @@ export const Skill_data = [
     },
     {
       skill_name: "Java",
-      Image: "/java.png",
+      Image: "/Java.png",
       width: 80,
       height: 80,
     },
@@ -154,7 +154,7 @@ export const Skill_data = [
     },
     {
       skill_name: "django",
-      Image: "/django.png",
+      Image: "/Django.png",
       width: 80,
       height: 80,
     },
@@ -214,13 +214,13 @@ export const Skill_data = [
   export const Full_stack = [
     {
       skill_name: "React Native",
-      Image: "/ReactNative .png",
+      Image: "/ReactNative.png",
       width: 70,
       height: 70,
     },
     {
       skill_name: "Git",
-      Image: "/git.png",
+      Image: "/Git.png",
       width: 70,
       height: 70,
     },
