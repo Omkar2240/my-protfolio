@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { GraduationCap, Instagram, Linkedin, Github, Twitter } from "lucide-react";
+import Link from "next/link";
 import {  useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
@@ -42,18 +43,18 @@ export default function AboutMe() {
             and integrate sustainability and innovation.
           </p>
           <div className="flex justify-center gap-6 mt-6">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
+            <Link href="https://instagram.com/omkar_ramgirwar_" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
               <Instagram className="w-10 h-10" />
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-700">
+            </Link>
+            <Link href="https://www.linkedin.com/in/omkar-ramgirwar-5b9409226/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-700">
               <Linkedin className="w-10 h-10" />
-            </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+            </Link>
+            <Link href="https://github.com/Omkar2240" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
               <Github className="w-10 h-10" />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-500">
+            </Link>
+            <Link href="https://x.com/omkar_ramgirwar" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-500">
               <Twitter className="w-10 h-10" />
-            </a>
+            </Link>
           </div>
         </div>
         <motion.div 

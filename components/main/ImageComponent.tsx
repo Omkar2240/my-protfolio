@@ -5,7 +5,7 @@ const ImageComponent: React.FC = () => {
   return (
     <div className="flex justify-center items-center md:h-screen h-[50vh]   ">
       <Image
-        src="/image.png"
+        src="/image.jpeg"
         alt="Profile"
         width={350} // Set width
         height={350} // Set height
