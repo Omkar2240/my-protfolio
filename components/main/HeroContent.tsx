@@ -65,7 +65,7 @@ const HeroContent = () => {
                     target="_blank"
                      id="about"
                 >
-                    Download Resume/CV
+                    View Resume
                 </motion.a>
                 </div>
             </div>
