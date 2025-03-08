@@ -64,8 +64,8 @@ export default function AboutMe() {
           transition={{ duration: 0.5 }}
         >
           <GraduationCap className="w-16 h-16 mb-4" />
-          <span className="text-2xl font-medium text-center">B.Tech Computer Science</span>
-          <span className="text-lg text-center">Tier 3 College</span>
+          <span className="text-2xl font-medium text-center">B.Tech Data Science</span>
+          <span className="text-lg text-center">GHRCEM,Nagpur</span>
         </motion.div>
       </motion.div>
       <motion.div 
