@@ -75,6 +75,9 @@ importers:
       '@types/react-dom':
         specifier: ^19
         version: 19.0.4(@types/react@19.0.10)
+      '@types/three':
+        specifier: ^0.174.0
+        version: 0.174.0
       eslint:
         specifier: ^9
         version: 9.22.0(jiti@2.4.2)
