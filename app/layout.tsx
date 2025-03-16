@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import Header from '@/components/Header'
 import StarsCanvas from "@/components/main/StarBackground";
+import { Analytics } from "@vercel/analytics/react"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +34,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${inter.className} bg-[#000002] antialiased`}
       >
         <Header />
+        <Analytics/>
         <StarsCanvas />
         {children}
       </body>

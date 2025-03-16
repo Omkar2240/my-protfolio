@@ -84,12 +84,13 @@ export default function Contact() {
           {submitted ? "Successfully Transmitted ✅" : "Transmit Message..."}
         </p>
     <form onSubmit={handleSubmit}>
-    <input type="text" className="w-full p-4 rounded-lg bg-black/40 text-white placeholder-white/50 border border-purple-700 focus:ring-2 focus:ring-purple-500 outline-none font-mono mb-5" name="name" placeholder="Enter Your Name"/>
-    <input type="email" className="w-full p-4 rounded-lg bg-black/40 text-white placeholder-white/50 border border-purple-700 focus:ring-2 focus:ring-purple-500 outline-none font-mono mb-5" name="email" placeholder="Enter Your Email"/>
+    <input type="text" required className="w-full p-4 rounded-lg bg-black/40 text-white placeholder-white/50 border border-purple-700 focus:ring-2 focus:ring-purple-500 outline-none font-mono mb-5" name="name" placeholder="Enter Your Name"/>
+    <input type="email"  required className="w-full p-4 rounded-lg bg-black/40 text-white placeholder-white/50 border border-purple-700 focus:ring-2 focus:ring-purple-500 outline-none font-mono mb-5" name="email" placeholder="Enter Your Email"/>
         {/* Input Panel */}
         <textarea
           placeholder="Speak to Omkar..."
           value={message}
+          required
           onChange={(e) => setMessage(e.target.value)}
           className="w-full p-4 rounded-lg bg-black/40 text-white placeholder-white/50 border border-purple-700 focus:ring-2 focus:ring-purple-500 outline-none font-mono"
         ></textarea>
