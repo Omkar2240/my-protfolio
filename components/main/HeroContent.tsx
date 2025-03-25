@@ -61,7 +61,7 @@ const HeroContent = () => {
                 <motion.a
                     variants={slideInFromLeft(1)}
                     className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[230px] mx-auto md:mx-0"
-                    href="https://drive.google.com/file/d/1qeG8A1h-OMBGD3CU3AI-DOW646Qv-k2b/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1FStSo3Wf-HIP24LE5HC9L0_XF91mo8Vu/view?usp=sharing"
                     target="_blank"
                      id="about"
                 >
