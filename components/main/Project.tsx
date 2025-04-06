@@ -2,18 +2,19 @@
 import React, { useState } from 'react'
 import project2 from '@/public/projects/project-chat-url.png'
 import Image from 'next/image'
-import project3 from '@/public/projects/project-gemini.png'
+import project3 from '@/public/projects/object-detection.png'
 import project1 from '@/public/projects/project-apple.png'
 
 
 const projects = [
     {
+        
         id: 1,
         year: 2025,
-        title: 'Apple Macbook Landing Page',
-        description: "Built a MacBook Pro landing page with a focus on modern web design! Designed a visually appealing and responsive user interface Integrated stunning visuals to enhance product presentation. This project helped me improve my frontend development skills, especially in building responsive and aesthetically engaging web pages. Technologies used: Next.js, Three.js, React Router Dom, TyeScript, Tailwindcss, and Drei. ",
-        image: project1,
-        link: 'https://macbooklandingpage.vercel.app/'
+        title: 'Real-Time Object Detection',
+        description: 'Built a browser-based app using COCO-SSD to detect objects with 80%+ accuracy in real-time via webcam. Optimized with Next.js for 30% faster load times and smooth, client-side inference. Enabled responsive UI with live object labeling and full cross-device support.Tech Stack: Next.js, TensorFlow.js, JavaScript',
+        image: project3,
+        link: 'https://object-detection-next-js-sage.vercel.app/'
     },
     {
         id: 2,
@@ -25,11 +26,11 @@ const projects = [
     },
     {
         id: 3,
-        year: 2024,
-        title: 'Gemini Clone',
-        description: 'Built a Gemini Clone using React and the Gemini API, enabling real-time AI conversations. The project features a smooth, interactive UI with seamless navigation for an intuitive user experience. It deepened my knowledge of API integration and front-end design patterns, enhancing both functionality and performance',
-        image: project3,
-        link: 'https://gemini-clone-omkar.netlify.app/'
+        year: 2025,
+        title: 'Apple Macbook Landing Page',
+        description: "Built a MacBook Pro landing page with a focus on modern web design! Designed a visually appealing and responsive user interface Integrated stunning visuals to enhance product presentation. This project helped me improve my frontend development skills, especially in building responsive and aesthetically engaging web pages. Technologies used: Next.js, Three.js, React Router Dom, TyeScript, Tailwindcss, and Drei. ",
+        image: project1,
+        link: 'https://macbooklandingpage.vercel.app/'
     }
 ]
 
