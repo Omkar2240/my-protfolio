@@ -88,6 +88,7 @@ export default function Contact() {
     <input type="email"  required className="w-full p-4 rounded-lg bg-black/40 text-white placeholder-white/50 border border-purple-700 focus:ring-2 focus:ring-purple-500 outline-none font-mono mb-5" name="email" placeholder="Enter Your Email"/>
         {/* Input Panel */}
         <textarea
+        name="message"
           placeholder="Speak to Omkar..."
           value={message}
           required
