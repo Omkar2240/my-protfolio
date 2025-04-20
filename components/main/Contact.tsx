@@ -49,7 +49,7 @@ export default function Contact() {
         transition={{ repeat: Infinity, duration: 3 }}
       >
         <Image 
-          src="/logo.png" // Replace with actual logo path
+          src="/logo.png" 
           alt="Logo"
           width={96}
           height={96}

@@ -10,7 +10,7 @@ const ImageComponent: React.FC = () => {
         width={350}
         height={350}
         priority // Ensures LCP image loads first
-        placeholder="blur" // Optional: Improves UX while loading
+        placeholder="blur" // Improves UX while loading
         blurDataURL="/image-placeholder.jpeg" // Low-res version of the image
         className="border-4 border-[#9320FF] animate-border"
         style={{
