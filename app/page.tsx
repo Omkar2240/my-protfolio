@@ -8,7 +8,8 @@ import React from 'react'
 import { ReactLenis, useLenis } from 'lenis/react'
 
 
-const page = () => {
+const Page = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const lenis = useLenis((lenis) => {
     // called every scroll
     console.log(lenis)
@@ -34,4 +35,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
